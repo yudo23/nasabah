@@ -96,7 +96,7 @@
                                         @endforelse
                                     @else
                                     <tr>
-                                        <td colspan="10" class="text-center">Silahkan gunakan tombol untuk menampilkan data</td>
+                                        <td colspan="10" class="text-center">Silahkan gunakan tombol filter untuk menampilkan data</td>
                                     </tr>
                                     @endif
                                 </tbody>

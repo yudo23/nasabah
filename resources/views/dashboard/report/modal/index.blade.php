@@ -11,7 +11,7 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <label>Nasabah <span class="text-danger"> *</span></label>
-                        <select class="form-control select2" style="width: 100%;" name="nasabah_id">
+                        <select class="form-control select2" style="width: 100%;" name="nasabah_id" required>
                             <option value="">==Pilih Nasabah==</option>
                             @foreach($nasabah as $index => $row)
                             <option value="{{$row->id}}">{{$row->name}}</option>
@@ -22,13 +22,13 @@
                         <div class="col-6">
                             <div class="form-group">
                                 <label>Tanggal Mulai <span class="text-danger"> *</span></label>
-                                <input type="date" class="form-control" name="start_date">
+                                <input type="date" class="form-control" name="start_date" required>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-group">
                                 <label>Tanggal Berakhir <span class="text-danger"> *</span></label>
-                                <input type="date" class="form-control" name="end_date">
+                                <input type="date" class="form-control" name="end_date" required>
                             </div>
                         </div>
                     </div>
