@@ -7,10 +7,11 @@ Project ini sudah menggunakan service layer (repository pattern) dan form reques
 <br>2.Buka terminal CMD dan arahkan ke project ini
 <br>3.Jalankan composer i
 <br>4.Ubah database env sesuaikan dengan yang diinginkan
-<br>5.Jalankan php artisan migrate
-<br>6.Jalankan php artisan serve
-<br>7.Buka http://localhost:8000 pada web browser 
-<br>8.Selesai
+<br>5.Jalankan php artisan key:generate
+<br>6.Jalankan php artisan migrate
+<br>7.Jalankan php artisan serve
+<br>8.Buka http://localhost:8000 pada web browser 
+<br>9.Selesai
 
 <br>====================URL API===================================
 <br>1.Nasabah
