@@ -1,5 +1,8 @@
 <html>
 
+<b>PORTOFOLIO = https://yudo23.github.io/portofolio</b>
+<br>
+
 Project ini sudah menggunakan service layer (repository pattern) dan form request validation . Untuk notifikasi alert nya menggunakan sweetalert . Penggunaan repositori pattern / service layer supaya mengurangi penulisan baris code yang berulang . Sehingga jika ada fitur yang sama baik dari API / Web dapat langsung menggunakan service layer tersebut . Juga agar pada tiap tiap controller hanya menggunakan baris code yang sedikit . Untuk collection API sudah saya cantumkan dengan nama file Nasabah Transaction.postman_collection.json
 
 <br>======================Instalasi Project=======================
